@@ -17,6 +17,10 @@ header{
     padding-top: 20PX;
     background: url('img/back3.avif'),linear-gradient(rgba(0, 0, 0, 0.548) rgba(255, 255, 255, 0.479));
     background-position: 50%;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    
 
 }
 
@@ -169,6 +173,7 @@ header{
     max-width: 1320px;
     margin: 50px auto;
     border: 1px solid transparent;
+    margin-top: 10%;
 }
 
  /* border: 1px solid green; */

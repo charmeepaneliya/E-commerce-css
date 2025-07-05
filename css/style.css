@@ -20,7 +20,8 @@ header{
     position: fixed;
     width: 100%;
     top: 0px;
-    
+      z-index: 10;
+      backdrop-filter: blur(10px);
 
 }
 .bag-img{
@@ -61,7 +62,7 @@ header{
 .navbar{
     max-width: 1320px;
     margin: auto;
-    
+  
     
 
 }

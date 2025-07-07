@@ -4,7 +4,7 @@
     padding: 0;
 }
 .background{
-    background-color: rgba(189, 138, 226, 0.555);
+    background-color: rgba(205, 177, 226, 0.555);
     height: 100vh;
     width: 100%;
 }
@@ -14,15 +14,24 @@
 
 form{
     align-items: center;
-    border: 1px solid red;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 20px;
     height: 500px;
     width: 500px;
     text-align: center;
    position: absolute;
-    left: 50%;
-    top: 50%;
+    right: 50%;
+    top: 55%;
     transform: translate(-50%,50%);
+    
+}
+.form{
+    display: inline-block;
+    
+}
+.text-box{
+    border: 1px solid;
+    font-size: 14px;
 }
 .title{
     margin: 15px;
@@ -44,4 +53,15 @@ form{
     font-size: 20px;
     color: white;
     background-image: linear-gradient(to right, #242424, #451a4d);
+}
+.side-photo{
+    
+    
+    height: 942px;
+    width: 50%;
+    position: absolute;
+    left: 75%;
+    top: 0;
+    transform: translate(-50%,0%);
+    
 }

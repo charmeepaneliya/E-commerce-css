@@ -3,7 +3,8 @@
     margin: 0;
     padding:0;
      font-family: "Margarine", sans-serif;
-
+    max-width: 1920px;
+    
 }
 body{
   /*  background-color: rgba(226, 210, 238, 0.555); */
@@ -321,5 +322,48 @@ header{
     background-color:gainsboro;
     
 }
+
+/* About us section code */
+.box{
+    width: 100%;
+    height: 800px;
+    padding: 10px;
+    background-color:rgba(204, 183, 216, 0.76);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.heading{
+    font-size: 40px;
+}
+.box1{
+   
+    width: 750px;
+    height:780px;
+}
+.box1 img{
+    width:750px;
+    height:780px;
+    border-radius: 5px;
+}
+img:hover{
+    transform: scale(1.1);
+}
+.box2{
+   
+    width: 1130px;
+    height: 780px;
+}
+.box:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.box2 >p{
+    color: indigo;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 240px;
+}
+.
+/* About us section end */
 
     
